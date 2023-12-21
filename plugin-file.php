@@ -1,8 +1,16 @@
+
+
+<?php
+
+/**
+
 Add/Edit any page or node and place filter tag [sitelocation_datetime] into editor with Full html mode to filter and render this the site location and it's date at fronted.
 
 Sample Plugin Code: 
 
-<?php
+
+*/
+
 namespace Drupal\site_location_time\Plugin\Filter;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Drupal\filter\FilterProcessResult;
